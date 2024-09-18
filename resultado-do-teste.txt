@@ -1,0 +1,57 @@
+Microsoft Windows [versão 10.0.19045.4894]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\ruanabs>cd ../../
+
+C:\>cd compiladores-ga
+
+C:\compiladores-ga>java -cp . Lexersimpletest
+Token: ID, value: class
+Token: ID, value: MyClass
+Token: LBRACE, value: {
+Token: ID, value: int
+Token: ID, value: a
+Token: SEMICOLON, value: ;
+Token: ID, value: bool
+Token: ID, value: b
+Token: SEMICOLON, value: ;
+Token: ID, value: void
+Token: ID, value: myMethod
+Token: LPAREN, value: (
+Token: ID, value: int
+Token: ID, value: x
+Token: RPAREN, value: )
+Token: LBRACE, value: {
+Token: ID, value: if
+Token: LPAREN, value: (
+Token: ID, value: x
+Token: GT, value: >
+Token: NUMBER, value: 10
+Token: RPAREN, value: )
+Token: LBRACE, value: {
+Token: LPAREN, value: (
+Token: NUMBER, value: 3
+Token: PLUS, value: +
+Token: NUMBER, value: 4
+Token: RPAREN, value: )
+Token: TIMES, value: *
+Token: ID, value: x
+Token: SEMICOLON, value: ;
+Token: ID, value: b
+Token: ASSIGN, value: =
+Token: ID, value: true
+Token: SEMICOLON, value: ;
+Token: RBRACE, value: }
+Token: ID, value: else
+Token: LBRACE, value: {
+Token: ID, value: b
+Token: ASSIGN, value: =
+Token: ID, value: false
+Token: SEMICOLON, value: ;
+Token: RBRACE, value: }
+Token: ID, value: return
+Token: SEMICOLON, value: ;
+Token: RBRACE, value: }
+Token: RBRACE, value: }
+
+C:\compiladores-ga>
